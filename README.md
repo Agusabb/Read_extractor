@@ -18,4 +18,4 @@ This script gets every read from the specified genomic location (formatted accor
 
 `./Read_extractor.sh -i input_sorted.bam -f Loci.csv -s 0 > ./output/sense.tab`
 
-* Using `Read_extractor_individual.sh` will generate one file for each **locus** in the **loci** file.
+* Using `Read_extractor_individual.sh` will generate one file for each **locus** in the **loci** file, it will put the output files in the working directory, don't add ">".
