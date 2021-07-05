@@ -1,4 +1,4 @@
-# Read_extractor 
+# Read_extractor 🧬📊
 
 **Read_extractor** it-s a simple Linux script that uses Samtools to obtain reads from several genomic loci in an sorted and indexed BAM file, using a list of *loci* from a .csv file. 
 
@@ -8,7 +8,7 @@ This script gets every read from the specified genomic location (formatted accor
 
 -i: Path to input file. Must be a sorted and indexed BAM file.
 
--f: Path to csv file containing the list of *loci* to extract. You can easily format your *loci* to csv using Sed, e.g: if you have your *loci* in a calc or excel sheet, you can change the new line (\n) to comma (,) with `sed ':a;N;$!ba;s/\n/,/g' inputfile > output.csv `.
+-f: Path to csv file containing the list of *loci* to extract. You can easily format your *loci* to csv using Sed, e.g: if you have your *loci* in a calc or excel sheet, you can change the new line (`\n`) to comma (`,`) with `sed ':a;N;$!ba;s/\n/,/g' inputfile > output.csv `.
 
 -s: Select sense or antisense strand. Works with SAM flags, select 0 for sense or 16 for antisense.
 
