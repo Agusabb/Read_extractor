@@ -1,6 +1,6 @@
 # Read_extractor 🧬📊
 
-**Read_extractor** it-s a simple Linux script that uses Samtools to obtain reads from several genomic loci in an sorted and indexed BAM file, using a list of *loci* from a .csv file. 
+**Read_extractor** it's a simple Linux script that uses Samtools to obtain reads from several genomic loci in an sorted and indexed BAM file, using a list of *loci* from a .csv file. 
 
 This script gets every read from the specified genomic location (formatted accordingly to the reference genome used), and counts how many times it's repeated, to finally add that number in a new column.
 
